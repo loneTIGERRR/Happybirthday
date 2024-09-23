@@ -1,0 +1,149 @@
+ /* General styling for all pages */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: rgb(201, 33, 33); /* You can change this if you need a different font color */
+    text-align: center;
+}
+
+/* Background for Home Page */
+.home-page {
+    background-color: #c76c8c; /* Light pink background */
+    background-image: url("C:\Users\Raghav Bajpai\OneDrive\Desktop\HappyBuddayGirl\Images\image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Background for Audio Page */
+.audio-page {
+    background-color: #bea245; /* Light yellow background */
+    background-image: url('C:\Users\Raghav Bajpai\OneDrive\Desktop\HappyBuddayGirl\Images\image2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Background for Video Page */
+.video-page {
+    background-color: #6ea553; /* Light green background */
+    background-image: url('C:\Users\Raghav Bajpai\OneDrive\Desktop\HappyBuddayGirl\Images\image3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Background for Memory Lane Page */
+.memory-lane-page {
+    background-color: #5f8ec7; /* Light blue background */
+    background-image: url('C:\Users\Raghav Bajpai\OneDrive\Desktop\HappyBuddayGirl\Images\image3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Background for Love Notes Page */
+.notes-page {
+    background-color: #9e5731; /* Light peach background */
+    background-image: url('C:\Users\Raghav Bajpai\OneDrive\Desktop\HappyBuddayGirl\Images\image2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for content in the pages */
+h1 {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Centering content vertically and horizontally */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Button styling (for navigating between pages) */
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: rgb(162, 60, 60);
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e94e3b;
+}
+
+/* Hide navigation by default */
+nav {
+    display: none;
+}
+
+.menu-icon {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+}
+
+/* Show navigation when active */
+nav.active {
+    display: block;
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
